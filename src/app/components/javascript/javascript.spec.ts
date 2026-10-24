@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Test } from './test';
+import { Javascript } from './javascript';
 
-describe('Test', () => {
-  let component: Test;
-  let fixture: ComponentFixture<Test>;
+describe('Javascript', () => {
+  let component: Javascript;
+  let fixture: ComponentFixture<Javascript>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Test],
+      imports: [Javascript],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(Test);
+    fixture = TestBed.createComponent(Javascript);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
